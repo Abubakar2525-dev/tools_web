@@ -11,6 +11,11 @@ const eslintConfig = defineConfig([
     ".next/**",
     "out/**",
     "build/**",
+    // Local Python runtimes contain generated documentation JavaScript.
+    ".python/**",
+    ".venv/**",
+    // Copied third-party browser runtimes are generated during postinstall.
+    "public/vendor/**",
     "next-env.d.ts",
   ]),
 ]);

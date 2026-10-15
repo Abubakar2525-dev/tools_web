@@ -1,0 +1,1064 @@
+[
+  {
+    "category": "writing-and-text",
+    "slug": "word-counter",
+    "name": "Word Counter",
+    "sourceSlug": "word-and-character-counter"
+  },
+  {
+    "category": "writing-and-text",
+    "slug": "character-counter",
+    "name": "Character Counter",
+    "sourceSlug": "word-and-character-counter"
+  },
+  {
+    "category": "writing-and-text",
+    "slug": "sentence-counter",
+    "name": "Sentence Counter",
+    "sourceSlug": "word-and-character-counter"
+  },
+  {
+    "category": "writing-and-text",
+    "slug": "paragraph-counter",
+    "name": "Paragraph Counter",
+    "sourceSlug": "word-and-character-counter"
+  },
+  {
+    "category": "writing-and-text",
+    "slug": "reading-time-calculator",
+    "name": "Reading Time Calculator",
+    "sourceSlug": "word-and-character-counter"
+  },
+  {
+    "category": "writing-and-text",
+    "slug": "essay-word-count-planner",
+    "name": "Essay Word-Count Planner",
+    "sourceSlug": "essay-word-count-planner"
+  },
+  {
+    "category": "writing-and-text",
+    "slug": "readability-checker",
+    "name": "Readability Checker",
+    "sourceSlug": "readability-checker"
+  },
+  {
+    "category": "writing-and-text",
+    "slug": "reading-level-checker",
+    "name": "Reading Level Checker",
+    "sourceSlug": "readability-checker"
+  },
+  {
+    "category": "writing-and-text",
+    "slug": "text-case-converter",
+    "name": "Text Case Converter",
+    "sourceSlug": "case-converter"
+  },
+  {
+    "category": "writing-and-text",
+    "slug": "text-cleaner",
+    "name": "Text Cleaner",
+    "sourceSlug": "text-cleaner"
+  },
+  {
+    "category": "writing-and-text",
+    "slug": "duplicate-line-remover",
+    "name": "Duplicate Line Remover",
+    "sourceSlug": "remove-duplicate-lines"
+  },
+  {
+    "category": "writing-and-text",
+    "slug": "find-and-replace",
+    "name": "Find & Replace",
+    "sourceSlug": "find-and-replace"
+  },
+  {
+    "category": "writing-and-text",
+    "slug": "text-difference-checker",
+    "name": "Text Difference Checker",
+    "sourceSlug": "diff-checker"
+  },
+  {
+    "category": "writing-and-text",
+    "slug": "text-length-limiter",
+    "name": "Text Length Limiter",
+    "sourceSlug": "text-length-limiter"
+  },
+  {
+    "category": "research-and-citations",
+    "slug": "apa-citation-generator",
+    "name": "APA Citation Generator",
+    "sourceSlug": "apa-citation-generator"
+  },
+  {
+    "category": "research-and-citations",
+    "slug": "mla-citation-generator",
+    "name": "MLA Citation Generator",
+    "sourceSlug": "mla-citation-generator"
+  },
+  {
+    "category": "research-and-citations",
+    "slug": "chicago-citation-generator",
+    "name": "Chicago Citation Generator",
+    "sourceSlug": "chicago-citation-generator"
+  },
+  {
+    "category": "research-and-citations",
+    "slug": "harvard-citation-generator",
+    "name": "Harvard Citation Generator",
+    "sourceSlug": "harvard-citation-generator"
+  },
+  {
+    "category": "research-and-citations",
+    "slug": "ieee-citation-generator",
+    "name": "IEEE Citation Generator",
+    "sourceSlug": "ieee-citation-generator"
+  },
+  {
+    "category": "research-and-citations",
+    "slug": "bibtex-generator",
+    "name": "BibTeX Generator",
+    "sourceSlug": "bibtex-generator"
+  },
+  {
+    "category": "research-and-citations",
+    "slug": "reference-list-generator",
+    "name": "Reference List Generator",
+    "sourceSlug": "reference-list-generator"
+  },
+  {
+    "category": "research-and-citations",
+    "slug": "literature-matrix",
+    "name": "Literature Matrix",
+    "sourceSlug": "literature-matrix"
+  },
+  {
+    "category": "math",
+    "slug": "scientific-calculator",
+    "name": "Scientific Calculator",
+    "sourceSlug": "scientific-calculator"
+  },
+  {
+    "category": "math",
+    "slug": "fraction-calculator",
+    "name": "Fraction Calculator",
+    "sourceSlug": "fraction-calculator"
+  },
+  {
+    "category": "math",
+    "slug": "percentage-calculator",
+    "name": "Percentage Calculator",
+    "sourceSlug": "percentage-calculator"
+  },
+  {
+    "category": "math",
+    "slug": "ratio-calculator",
+    "name": "Ratio Calculator",
+    "sourceSlug": "ratio-and-proportion-calculator"
+  },
+  {
+    "category": "math",
+    "slug": "proportion-calculator",
+    "name": "Proportion Calculator",
+    "sourceSlug": "ratio-and-proportion-calculator"
+  },
+  {
+    "category": "math",
+    "slug": "exponent-calculator",
+    "name": "Exponent Calculator",
+    "sourceSlug": "exponent-calculator"
+  },
+  {
+    "category": "math",
+    "slug": "square-root-calculator",
+    "name": "Square Root Calculator",
+    "sourceSlug": "root-calculator"
+  },
+  {
+    "category": "math",
+    "slug": "significant-figures-calculator",
+    "name": "Significant Figures Calculator",
+    "sourceSlug": "scientific-notation-converter"
+  },
+  {
+    "category": "math",
+    "slug": "quadratic-equation-solver",
+    "name": "Quadratic Equation Solver",
+    "sourceSlug": "quadratic-equation-solver"
+  },
+  {
+    "category": "math",
+    "slug": "linear-equation-solver",
+    "name": "Linear Equation Solver",
+    "sourceSlug": "equation-solver"
+  },
+  {
+    "category": "math",
+    "slug": "system-of-equations-solver",
+    "name": "System of Equations Solver",
+    "sourceSlug": "equation-solver"
+  },
+  {
+    "category": "math",
+    "slug": "matrix-calculator",
+    "name": "Matrix Calculator",
+    "sourceSlug": "matrix-calculator"
+  },
+  {
+    "category": "math",
+    "slug": "determinant-calculator",
+    "name": "Determinant Calculator",
+    "sourceSlug": "matrix-calculator"
+  },
+  {
+    "category": "math",
+    "slug": "sequence-calculator",
+    "name": "Sequence Calculator",
+    "sourceSlug": "sequence-calculator"
+  },
+  {
+    "category": "math",
+    "slug": "series-calculator",
+    "name": "Series Calculator",
+    "sourceSlug": "series-calculator"
+  },
+  {
+    "category": "math",
+    "slug": "geometry-calculator",
+    "name": "Geometry Calculator",
+    "sourceSlug": "area-calculator"
+  },
+  {
+    "category": "math",
+    "slug": "derivative-calculator",
+    "name": "Derivative Calculator",
+    "sourceSlug": "derivative-calculator"
+  },
+  {
+    "category": "statistics",
+    "slug": "mean-average-calculator",
+    "name": "Mean / Average Calculator",
+    "sourceSlug": "mean-median-and-mode-calculator"
+  },
+  {
+    "category": "statistics",
+    "slug": "median-calculator",
+    "name": "Median Calculator",
+    "sourceSlug": "mean-median-and-mode-calculator"
+  },
+  {
+    "category": "statistics",
+    "slug": "mode-calculator",
+    "name": "Mode Calculator",
+    "sourceSlug": "mean-median-and-mode-calculator"
+  },
+  {
+    "category": "statistics",
+    "slug": "standard-deviation-calculator",
+    "name": "Standard Deviation Calculator",
+    "sourceSlug": "standard-deviation-and-variance-calculator"
+  },
+  {
+    "category": "statistics",
+    "slug": "variance-calculator",
+    "name": "Variance Calculator",
+    "sourceSlug": "standard-deviation-and-variance-calculator"
+  },
+  {
+    "category": "statistics",
+    "slug": "probability-calculator",
+    "name": "Probability Calculator",
+    "sourceSlug": "probability-calculator"
+  },
+  {
+    "category": "statistics",
+    "slug": "permutation-calculator",
+    "name": "Permutation Calculator",
+    "sourceSlug": "permutation-and-combination-calculator"
+  },
+  {
+    "category": "statistics",
+    "slug": "combination-calculator",
+    "name": "Combination Calculator",
+    "sourceSlug": "permutation-and-combination-calculator"
+  },
+  {
+    "category": "statistics",
+    "slug": "z-score-calculator",
+    "name": "Z-Score Calculator",
+    "sourceSlug": "z-score-calculator"
+  },
+  {
+    "category": "statistics",
+    "slug": "confidence-interval-calculator",
+    "name": "Confidence Interval Calculator",
+    "sourceSlug": "confidence-interval-calculator"
+  },
+  {
+    "category": "statistics",
+    "slug": "p-value-calculator",
+    "name": "P-value Calculator",
+    "sourceSlug": "p-value-calculator"
+  },
+  {
+    "category": "statistics",
+    "slug": "effect-size-calculator",
+    "name": "Effect Size Calculator",
+    "sourceSlug": "effect-size-calculator"
+  },
+  {
+    "category": "statistics",
+    "slug": "sample-size-calculator",
+    "name": "Sample Size Calculator",
+    "sourceSlug": "sample-size-calculator"
+  },
+  {
+    "category": "statistics",
+    "slug": "regression-calculator",
+    "name": "Regression Calculator",
+    "sourceSlug": "regression-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "speed-distance-time-calculator",
+    "name": "Speed / Distance / Time Calculator",
+    "sourceSlug": "speed-distance-and-time-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "velocity-calculator",
+    "name": "Velocity Calculator",
+    "sourceSlug": "speed-distance-and-time-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "acceleration-calculator",
+    "name": "Acceleration Calculator",
+    "sourceSlug": "acceleration-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "force-calculator",
+    "name": "Force Calculator",
+    "sourceSlug": "force-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "momentum-calculator",
+    "name": "Momentum Calculator",
+    "sourceSlug": "momentum-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "work-calculator",
+    "name": "Work Calculator",
+    "sourceSlug": "work-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "power-calculator",
+    "name": "Power Calculator",
+    "sourceSlug": "power-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "kinetic-energy-calculator",
+    "name": "Kinetic Energy Calculator",
+    "sourceSlug": "energy-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "potential-energy-calculator",
+    "name": "Potential Energy Calculator",
+    "sourceSlug": "energy-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "projectile-motion-calculator",
+    "name": "Projectile Motion Calculator",
+    "sourceSlug": "projectile-motion-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "gravitational-force-calculator",
+    "name": "Gravitational Force Calculator",
+    "sourceSlug": "gravitational-force-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "ohm-s-law-calculator",
+    "name": "Ohm's Law Calculator",
+    "sourceSlug": "ohms-law-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "resistance-calculator",
+    "name": "Resistance Calculator",
+    "sourceSlug": "resistance-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "coulomb-s-law-calculator",
+    "name": "Coulomb's Law Calculator",
+    "sourceSlug": "coulombs-law-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "wavelength-calculator",
+    "name": "Wavelength Calculator",
+    "sourceSlug": "wavelength-calculator"
+  },
+  {
+    "category": "physics",
+    "slug": "frequency-calculator",
+    "name": "Frequency Calculator",
+    "sourceSlug": "frequency-calculator"
+  },
+  {
+    "category": "chemistry",
+    "slug": "molar-mass-calculator",
+    "name": "Molar Mass Calculator",
+    "sourceSlug": "molecular-weight-calculator"
+  },
+  {
+    "category": "chemistry",
+    "slug": "mole-calculator",
+    "name": "Mole Calculator",
+    "sourceSlug": "mole-calculator"
+  },
+  {
+    "category": "chemistry",
+    "slug": "molarity-calculator",
+    "name": "Molarity Calculator",
+    "sourceSlug": "molarity-calculator"
+  },
+  {
+    "category": "chemistry",
+    "slug": "dilution-calculator",
+    "name": "Dilution Calculator",
+    "sourceSlug": "molarity-calculator"
+  },
+  {
+    "category": "chemistry",
+    "slug": "concentration-calculator",
+    "name": "Concentration Calculator",
+    "sourceSlug": "concentration-calculator"
+  },
+  {
+    "category": "chemistry",
+    "slug": "stoichiometry-calculator",
+    "name": "Stoichiometry Calculator",
+    "sourceSlug": "stoichiometry-calculator"
+  },
+  {
+    "category": "chemistry",
+    "slug": "chemical-equation-balancer",
+    "name": "Chemical Equation Balancer",
+    "sourceSlug": "chemical-equation-balancer"
+  },
+  {
+    "category": "chemistry",
+    "slug": "ph-calculator",
+    "name": "pH Calculator",
+    "sourceSlug": "ph-calculator"
+  },
+  {
+    "category": "chemistry",
+    "slug": "poh-calculator",
+    "name": "pOH Calculator",
+    "sourceSlug": "ph-calculator"
+  },
+  {
+    "category": "chemistry",
+    "slug": "ideal-gas-law-calculator",
+    "name": "Ideal Gas Law Calculator",
+    "sourceSlug": "ideal-gas-law-calculator"
+  },
+  {
+    "category": "chemistry",
+    "slug": "half-life-calculator",
+    "name": "Half-Life Calculator",
+    "sourceSlug": "half-life-calculator"
+  },
+  {
+    "category": "chemistry",
+    "slug": "periodic-table",
+    "name": "Periodic Table",
+    "sourceSlug": "periodic-table"
+  },
+  {
+    "category": "engineering",
+    "slug": "voltage-divider-calculator",
+    "name": "Voltage Divider Calculator",
+    "sourceSlug": "voltage-divider-calculator"
+  },
+  {
+    "category": "engineering",
+    "slug": "resistor-calculator",
+    "name": "Resistor Calculator",
+    "sourceSlug": "resistor-color-code-calculator"
+  },
+  {
+    "category": "engineering",
+    "slug": "capacitor-calculator",
+    "name": "Capacitor Calculator",
+    "sourceSlug": "capacitor-calculator"
+  },
+  {
+    "category": "engineering",
+    "slug": "inductor-calculator",
+    "name": "Inductor Calculator",
+    "sourceSlug": "inductor-calculator"
+  },
+  {
+    "category": "engineering",
+    "slug": "power-factor-calculator",
+    "name": "Power Factor Calculator",
+    "sourceSlug": "power-factor-calculator"
+  },
+  {
+    "category": "engineering",
+    "slug": "beam-calculator",
+    "name": "Beam Calculator",
+    "sourceSlug": "beam-calculator"
+  },
+  {
+    "category": "engineering",
+    "slug": "stress-calculator",
+    "name": "Stress Calculator",
+    "sourceSlug": "stress-calculator"
+  },
+  {
+    "category": "engineering",
+    "slug": "strain-calculator",
+    "name": "Strain Calculator",
+    "sourceSlug": "strain-calculator"
+  },
+  {
+    "category": "engineering",
+    "slug": "reynolds-number-calculator",
+    "name": "Reynolds Number Calculator",
+    "sourceSlug": "reynolds-number-calculator"
+  },
+  {
+    "category": "biology",
+    "slug": "punnett-square-calculator",
+    "name": "Punnett Square Calculator",
+    "sourceSlug": "punnett-square-calculator"
+  },
+  {
+    "category": "biology",
+    "slug": "dna-complement-generator",
+    "name": "DNA Complement Generator",
+    "sourceSlug": "dna-complement-generator"
+  },
+  {
+    "category": "grades",
+    "slug": "gpa-calculator",
+    "name": "GPA Calculator",
+    "sourceSlug": "gpa-calculator"
+  },
+  {
+    "category": "grades",
+    "slug": "gpa-goal-planner",
+    "name": "GPA Goal Planner",
+    "sourceSlug": "gpa-goal-planner"
+  },
+  {
+    "category": "grades",
+    "slug": "grade-calculator",
+    "name": "Grade Calculator",
+    "sourceSlug": "grade-calculator"
+  },
+  {
+    "category": "grades",
+    "slug": "final-grade-calculator",
+    "name": "Final Grade Calculator",
+    "sourceSlug": "final-grade-calculator"
+  },
+  {
+    "category": "grades",
+    "slug": "weighted-grade-calculator",
+    "name": "Weighted Grade Calculator",
+    "sourceSlug": "weighted-grade-calculator"
+  },
+  {
+    "category": "grades",
+    "slug": "exam-grade-calculator",
+    "name": "Exam Grade Calculator",
+    "sourceSlug": "exam-grade-calculator"
+  },
+  {
+    "category": "productivity",
+    "slug": "pomodoro-timer",
+    "name": "Pomodoro Timer",
+    "sourceSlug": "pomodoro-timer"
+  },
+  {
+    "category": "productivity",
+    "slug": "focus-timer",
+    "name": "Focus Timer",
+    "sourceSlug": "pomodoro-timer"
+  },
+  {
+    "category": "productivity",
+    "slug": "study-timer",
+    "name": "Study Timer",
+    "sourceSlug": "study-timer"
+  },
+  {
+    "category": "productivity",
+    "slug": "stopwatch",
+    "name": "Stopwatch",
+    "sourceSlug": "stopwatch"
+  },
+  {
+    "category": "productivity",
+    "slug": "countdown-timer",
+    "name": "Countdown Timer",
+    "sourceSlug": "timer-and-alarm"
+  },
+  {
+    "category": "productivity",
+    "slug": "exam-countdown",
+    "name": "Exam Countdown",
+    "sourceSlug": "exam-countdown"
+  },
+  {
+    "category": "productivity",
+    "slug": "presentation-timer",
+    "name": "Presentation Timer",
+    "sourceSlug": "presentation-timer"
+  },
+  {
+    "category": "productivity",
+    "slug": "semester-planner",
+    "name": "Semester Planner",
+    "sourceSlug": "semester-planner"
+  },
+  {
+    "category": "productivity",
+    "slug": "assignment-planner",
+    "name": "Assignment Planner",
+    "sourceSlug": "assignment-planner"
+  },
+  {
+    "category": "productivity",
+    "slug": "homework-planner",
+    "name": "Homework Planner",
+    "sourceSlug": "assignment-planner"
+  },
+  {
+    "category": "productivity",
+    "slug": "daily-study-planner",
+    "name": "Daily Study Planner",
+    "sourceSlug": "daily-study-planner"
+  },
+  {
+    "category": "productivity",
+    "slug": "weekly-study-planner",
+    "name": "Weekly Study Planner",
+    "sourceSlug": "week-planner"
+  },
+  {
+    "category": "productivity",
+    "slug": "project-planner",
+    "name": "Project Planner",
+    "sourceSlug": "project-planner"
+  },
+  {
+    "category": "productivity",
+    "slug": "group-project-planner",
+    "name": "Group Project Planner",
+    "sourceSlug": "project-planner"
+  },
+  {
+    "category": "productivity",
+    "slug": "thesis-planner",
+    "name": "Thesis Planner",
+    "sourceSlug": "thesis-planner"
+  },
+  {
+    "category": "productivity",
+    "slug": "dissertation-planner",
+    "name": "Dissertation Planner",
+    "sourceSlug": "thesis-planner"
+  },
+  {
+    "category": "productivity",
+    "slug": "calendar",
+    "name": "Calendar",
+    "sourceSlug": "calendar-generator"
+  },
+  {
+    "category": "finance",
+    "slug": "student-budget-calculator",
+    "name": "Student Budget Calculator",
+    "sourceSlug": "student-budget-calculator"
+  },
+  {
+    "category": "finance",
+    "slug": "monthly-budget-planner",
+    "name": "Monthly Budget Planner",
+    "sourceSlug": "budget-planner"
+  },
+  {
+    "category": "finance",
+    "slug": "rent-affordability-calculator",
+    "name": "Rent Affordability Calculator",
+    "sourceSlug": "rent-affordability-calculator"
+  },
+  {
+    "category": "finance",
+    "slug": "student-loan-calculator",
+    "name": "Student Loan Calculator",
+    "sourceSlug": "loan-emi-calculator"
+  },
+  {
+    "category": "finance",
+    "slug": "loan-repayment-calculator",
+    "name": "Loan Repayment Calculator",
+    "sourceSlug": "loan-emi-calculator"
+  },
+  {
+    "category": "finance",
+    "slug": "savings-calculator",
+    "name": "Savings Calculator",
+    "sourceSlug": "savings-calculator"
+  },
+  {
+    "category": "finance",
+    "slug": "compound-interest-calculator",
+    "name": "Compound Interest Calculator",
+    "sourceSlug": "compound-interest-calculator"
+  },
+  {
+    "category": "finance",
+    "slug": "salary-calculator",
+    "name": "Salary Calculator",
+    "sourceSlug": "salary-converter"
+  },
+  {
+    "category": "finance",
+    "slug": "hourly-to-salary-calculator",
+    "name": "Hourly-to-Salary Calculator",
+    "sourceSlug": "salary-converter"
+  },
+  {
+    "category": "career",
+    "slug": "resume-builder",
+    "name": "Resume Builder",
+    "sourceSlug": "resume-builder"
+  },
+  {
+    "category": "career",
+    "slug": "cv-builder",
+    "name": "CV Builder",
+    "sourceSlug": "resume-builder"
+  },
+  {
+    "category": "career",
+    "slug": "academic-cv-builder",
+    "name": "Academic CV Builder",
+    "sourceSlug": "resume-builder"
+  },
+  {
+    "category": "career",
+    "slug": "portfolio-builder",
+    "name": "Portfolio Builder",
+    "sourceSlug": "portfolio-builder"
+  },
+  {
+    "category": "career",
+    "slug": "internship-application-tracker",
+    "name": "Internship Application Tracker",
+    "sourceSlug": "job-application-tracker"
+  },
+  {
+    "category": "career",
+    "slug": "job-application-tracker",
+    "name": "Job Application Tracker",
+    "sourceSlug": "job-application-tracker"
+  },
+  {
+    "category": "developer",
+    "slug": "json-formatter",
+    "name": "JSON Formatter",
+    "sourceSlug": "json-formatter"
+  },
+  {
+    "category": "developer",
+    "slug": "json-validator",
+    "name": "JSON Validator",
+    "sourceSlug": "json-formatter"
+  },
+  {
+    "category": "developer",
+    "slug": "json-minifier",
+    "name": "JSON Minifier",
+    "sourceSlug": "json-formatter"
+  },
+  {
+    "category": "developer",
+    "slug": "json-c-class",
+    "name": "JSON → C# Class",
+    "sourceSlug": "json-to-csharp"
+  },
+  {
+    "category": "developer",
+    "slug": "json-typescript",
+    "name": "JSON → TypeScript",
+    "sourceSlug": "json-to-typescript"
+  },
+  {
+    "category": "developer",
+    "slug": "json-sql",
+    "name": "JSON → SQL",
+    "sourceSlug": "json-to-sql"
+  },
+  {
+    "category": "developer",
+    "slug": "sql-formatter",
+    "name": "SQL Formatter",
+    "sourceSlug": "sql-formatter"
+  },
+  {
+    "category": "developer",
+    "slug": "html-formatter",
+    "name": "HTML Formatter",
+    "sourceSlug": "html-formatter"
+  },
+  {
+    "category": "developer",
+    "slug": "css-formatter",
+    "name": "CSS Formatter",
+    "sourceSlug": "css-formatter-and-minifier"
+  },
+  {
+    "category": "developer",
+    "slug": "javascript-formatter",
+    "name": "JavaScript Formatter",
+    "sourceSlug": "javascript-formatter-and-minifier"
+  },
+  {
+    "category": "developer",
+    "slug": "base64-encoder-decoder",
+    "name": "Base64 Encoder / Decoder",
+    "sourceSlug": "base64-encoder-decoder"
+  },
+  {
+    "category": "developer",
+    "slug": "url-encoder-decoder",
+    "name": "URL Encoder / Decoder",
+    "sourceSlug": "url-encoder-decoder"
+  },
+  {
+    "category": "developer",
+    "slug": "jwt-decoder",
+    "name": "JWT Decoder",
+    "sourceSlug": "jwt-decoder"
+  },
+  {
+    "category": "developer",
+    "slug": "binary-converter",
+    "name": "Binary Converter",
+    "sourceSlug": "number-base-converter"
+  },
+  {
+    "category": "developer",
+    "slug": "hex-converter",
+    "name": "Hex Converter",
+    "sourceSlug": "number-base-converter"
+  },
+  {
+    "category": "developer",
+    "slug": "decimal-converter",
+    "name": "Decimal Converter",
+    "sourceSlug": "number-base-converter"
+  },
+  {
+    "category": "developer",
+    "slug": "ascii-converter",
+    "name": "ASCII Converter",
+    "sourceSlug": "text-to-ascii-codes"
+  },
+  {
+    "category": "developer",
+    "slug": "base-converter",
+    "name": "Base Converter",
+    "sourceSlug": "number-base-converter"
+  },
+  {
+    "category": "developer",
+    "slug": "uuid-generator",
+    "name": "UUID Generator",
+    "sourceSlug": "uuid-ulid-generator"
+  },
+  {
+    "category": "developer",
+    "slug": "hash-generator",
+    "name": "Hash Generator",
+    "sourceSlug": "hash-generator"
+  },
+  {
+    "category": "developer",
+    "slug": "cron-expression-generator",
+    "name": "Cron Expression Generator",
+    "sourceSlug": "cron-expression-builder-and-parser"
+  },
+  {
+    "category": "developer",
+    "slug": "gitignore-generator",
+    "name": ".gitignore Generator",
+    "sourceSlug": "gitignore-generator"
+  },
+  {
+    "category": "developer",
+    "slug": "docker-compose-generator",
+    "name": "Docker Compose Generator",
+    "sourceSlug": "docker-compose-generator"
+  },
+  {
+    "category": "developer",
+    "slug": "regex-tester",
+    "name": "Regex Tester",
+    "sourceSlug": "regex-tester"
+  },
+  {
+    "category": "developer",
+    "slug": "markdown-editor",
+    "name": "Markdown Editor",
+    "sourceSlug": "markdown-editor-and-formatter"
+  },
+  {
+    "category": "developer",
+    "slug": "sql-playground",
+    "name": "SQL Playground",
+    "sourceSlug": "sql-playground"
+  },
+  {
+    "category": "developer",
+    "slug": "timestamp-converter",
+    "name": "Timestamp Converter",
+    "sourceSlug": "unix-timestamp-converter"
+  },
+  {
+    "category": "developer",
+    "slug": "color-converter",
+    "name": "Color Converter",
+    "sourceSlug": "color-converter"
+  },
+  {
+    "category": "developer",
+    "slug": "ip-calculator",
+    "name": "IP Calculator",
+    "sourceSlug": "ip-subnet-cidr-calculator"
+  },
+  {
+    "category": "developer",
+    "slug": "git-command-helper",
+    "name": "Git Command Helper",
+    "sourceSlug": "git-command-helper"
+  },
+  {
+    "category": "presentations-and-diagrams",
+    "slug": "flowchart-maker",
+    "name": "Flowchart Maker",
+    "sourceSlug": "flowchart-maker"
+  },
+  {
+    "category": "presentations-and-diagrams",
+    "slug": "mind-map-maker",
+    "name": "Mind Map Maker",
+    "sourceSlug": "mind-map-maker"
+  },
+  {
+    "category": "presentations-and-diagrams",
+    "slug": "timeline-maker",
+    "name": "Timeline Maker",
+    "sourceSlug": "timeline-maker"
+  },
+  {
+    "category": "everyday",
+    "slug": "unit-converter",
+    "name": "Unit Converter",
+    "sourceSlug": "length-converter"
+  },
+  {
+    "category": "everyday",
+    "slug": "time-zone-converter",
+    "name": "Time Zone Converter",
+    "sourceSlug": "time-zone-converter"
+  },
+  {
+    "category": "everyday",
+    "slug": "world-clock",
+    "name": "World Clock",
+    "sourceSlug": "world-clock"
+  },
+  {
+    "category": "everyday",
+    "slug": "date-calculator",
+    "name": "Date Calculator",
+    "sourceSlug": "date-difference-calculator"
+  },
+  {
+    "category": "everyday",
+    "slug": "age-calculator",
+    "name": "Age Calculator",
+    "sourceSlug": "age-calculator"
+  },
+  {
+    "category": "everyday",
+    "slug": "time-calculator",
+    "name": "Time Calculator",
+    "sourceSlug": "time-calculator"
+  },
+  {
+    "category": "everyday",
+    "slug": "discount-calculator",
+    "name": "Discount Calculator",
+    "sourceSlug": "discount-calculator"
+  },
+  {
+    "category": "everyday",
+    "slug": "tip-calculator",
+    "name": "Tip Calculator",
+    "sourceSlug": "tip-calculator"
+  },
+  {
+    "category": "everyday",
+    "slug": "bmi-calculator",
+    "name": "BMI Calculator",
+    "sourceSlug": "bmi-calculator"
+  },
+  {
+    "category": "everyday",
+    "slug": "random-number-generator",
+    "name": "Random Number Generator",
+    "sourceSlug": "random-number-generator"
+  },
+  {
+    "category": "everyday",
+    "slug": "random-picker",
+    "name": "Random Picker",
+    "sourceSlug": "random-picker"
+  },
+  {
+    "category": "everyday",
+    "slug": "qr-code-generator",
+    "name": "QR Code Generator",
+    "sourceSlug": "qr-code-generator"
+  },
+  {
+    "category": "everyday",
+    "slug": "barcode-generator",
+    "name": "Barcode Generator",
+    "sourceSlug": "barcode-generator"
+  },
+  {
+    "category": "everyday",
+    "slug": "password-generator",
+    "name": "Password Generator",
+    "sourceSlug": "password-generator"
+  }
+]

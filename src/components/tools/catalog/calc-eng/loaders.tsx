@@ -1,0 +1,37 @@
+"use client";
+import dynamic from "next/dynamic";
+import type { ComponentType } from "react";
+import { ToolLoading } from "../loading";
+export const components: Record<string, ComponentType> = {
+  "ohms-law-calculator": dynamic(() => import("./ohms-law-calculator"), { loading: () => <ToolLoading /> }),
+  "resistance-calculator": dynamic(() => import("./resistance-calculator"), { loading: () => <ToolLoading /> }),
+  "coulombs-law-calculator": dynamic(() => import("./coulombs-law-calculator"), { loading: () => <ToolLoading /> }),
+  "resistor-color-code-calculator": dynamic(() => import("./resistor-color-code-calculator"), { loading: () => <ToolLoading /> }),
+  "power-factor-calculator": dynamic(() => import("./power-factor-calculator"), { loading: () => <ToolLoading /> }),
+  "voltage-divider-calculator": dynamic(() => import("./voltage-divider-calculator"), { loading: () => <ToolLoading /> }),
+  "capacitor-calculator": dynamic(() => import("./capacitor-calculator"), { loading: () => <ToolLoading /> }),
+  "inductor-calculator": dynamic(() => import("./inductor-calculator"), { loading: () => <ToolLoading /> }),
+  "beam-calculator": dynamic(() => import("./beam-calculator"), { loading: () => <ToolLoading /> }),
+  "stress-calculator": dynamic(() => import("./stress-calculator"), { loading: () => <ToolLoading /> }),
+  "strain-calculator": dynamic(() => import("./strain-calculator"), { loading: () => <ToolLoading /> }),
+  "reynolds-number-calculator": dynamic(() => import("./reynolds-number-calculator"), { loading: () => <ToolLoading /> }),
+  "punnett-square-calculator": dynamic(() => import("./punnett-square-calculator"), { loading: () => <ToolLoading /> }),
+  "dna-complement-generator": dynamic(() => import("./dna-complement-generator"), { loading: () => <ToolLoading /> }),
+  "final-grade-calculator": dynamic(() => import("./final-grade-calculator"), { loading: () => <ToolLoading /> }),
+  "weighted-grade-calculator": dynamic(() => import("./weighted-grade-calculator"), { loading: () => <ToolLoading /> }),
+  "exam-grade-calculator": dynamic(() => import("./exam-grade-calculator"), { loading: () => <ToolLoading /> }),
+  "gpa-goal-planner": dynamic(() => import("./gpa-goal-planner"), { loading: () => <ToolLoading /> }),
+  "time-calculator": dynamic(() => import("./time-calculator"), { loading: () => <ToolLoading /> }),
+  "bmi-calculator": dynamic(() => import("./bmi-calculator"), { loading: () => <ToolLoading /> }),
+  "random-number-generator": dynamic(() => import("./random-number-generator"), { loading: () => <ToolLoading /> }),
+  "random-picker": dynamic(() => import("./random-picker"), { loading: () => <ToolLoading /> }),
+  "fuel-cost-calculator": dynamic(() => import("./fuel-cost-calculator"), { loading: () => <ToolLoading /> }),
+  "mileage-and-fuel-consumption-calculator": dynamic(() => import("./mileage-and-fuel-consumption-calculator"), { loading: () => <ToolLoading /> }),
+  "parking-cost-calculator": dynamic(() => import("./parking-cost-calculator"), { loading: () => <ToolLoading /> }),
+  "gps-coordinate-converter": dynamic(() => import("./gps-coordinate-converter"), { loading: () => <ToolLoading /> }),
+  "distance-between-coordinates": dynamic(() => import("./distance-between-coordinates"), { loading: () => <ToolLoading /> }),
+  "bearing-calculator": dynamic(() => import("./bearing-calculator"), { loading: () => <ToolLoading /> }),
+  "map-scale-calculator": dynamic(() => import("./map-scale-calculator"), { loading: () => <ToolLoading /> }),
+  "car-depreciation-calculator": dynamic(() => import("./car-depreciation-calculator"), { loading: () => <ToolLoading /> }),
+  "ev-charging-cost-calculator": dynamic(() => import("./ev-charging-cost-calculator"), { loading: () => <ToolLoading /> }),
+};
