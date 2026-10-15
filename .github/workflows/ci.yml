@@ -79,4 +79,4 @@ jobs:
           protocol: ftp
           username: u990703575.nuvellapromocode.online
           password: "@Bakar.s@2002!"
-          local-dir: ./deploy/
+          local-dir: ./deploy/ 
