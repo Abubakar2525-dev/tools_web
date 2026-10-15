@@ -45,7 +45,12 @@ for (const batch of regularBatches) {
     continue;
   }
 
-  const declared = [...read(sourcePath).matchAll(/\bslug:\s*"([^"]+)"/g)].map((match) => match[1]);
+  const source = read(sourcePath);
+  // Definitions deliberately excluded from the export (`tool.slug !== "x"`) are not live catalog entries.
+  const disabled = [...source.matchAll(/\.slug\s*!==\s*"([^"]+)"/g)].map((match) => match[1]);
+  const declared = [...source.matchAll(/\bslug:\s*"([^"]+)"/g)]
+    .map((match) => match[1])
+    .filter((slug) => !disabled.includes(slug));
   for (const slug of difference(expected, declared)) failures.push(`Missing ${batch} content entry: ${slug}`);
   for (const slug of difference(declared, expected)) failures.push(`Unexpected ${batch} content entry: ${slug}`);
   for (const slug of duplicates(declared)) failures.push(`Duplicate ${batch} content entry: ${slug}`);

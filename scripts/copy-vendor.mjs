@@ -36,5 +36,11 @@ if (existsSync(core)) {
   for (const f of readdirSync(core)) if (/^tesseract-core(-simd|-relaxedsimd)?-lstm\.wasm\.js$/.test(f)) cpSync(join(core, f), out(`tesseract-core/${f}`));
 }
 
+// onnxruntime-web WASM runtime (background remover)
+const ort = nm("onnxruntime-web/dist");
+if (existsSync(ort)) {
+  mkdirSync(out("ort"), { recursive: true });
+  for (const f of readdirSync(ort)) if (/^ort-wasm.*\.(wasm|mjs)$/.test(f)) cpSync(join(ort, f), out(`ort/${f}`));
+}
 
 console.log("[copy-vendor] done");

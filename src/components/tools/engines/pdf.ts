@@ -12,6 +12,7 @@ export const VENDOR = {
   libarchiveWorker: "/vendor/libarchive/worker-bundle.js",
   tesseractWorker: "/vendor/tesseract/worker.min.js",
   tesseractCore: "/vendor/tesseract-core",
+  ortWasm: "/vendor/ort/",
 } as const;
 
 type PdfJs = typeof import("pdfjs-dist");
