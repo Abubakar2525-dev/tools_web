@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
-import { Bricolage_Grotesque, Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { Header, type MegaMenu, type MenuLink } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -20,11 +21,12 @@ import { organizationLd, websiteLd } from "@/lib/seo";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist", display: "swap" });
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono", display: "swap" });
-const bricolage = Bricolage_Grotesque({
-  subsets: ["latin"],
+// Self-hosted (latin subset, variable 500–700): fetching it via next/font/google fails under Turbopack in CI.
+const bricolage = localFont({
+  src: "./fonts/bricolage-grotesque-latin.woff2",
   variable: "--font-bricolage",
   display: "swap",
-  weight: ["500", "600", "700"],
+  weight: "500 700",
 });
 
 export const metadata: Metadata = {
