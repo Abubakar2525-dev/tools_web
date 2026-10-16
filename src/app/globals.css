@@ -5,6 +5,8 @@
    Primitive → semantic. Components consume the semantic layer only.
 ------------------------------------------------------------------- */
 :root {
+  --font-geist-mono: ui-monospace, "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+
   /* neutrals: faintly cool, never cream */
   --bg: oklch(0.984 0.002 170);
   --bg-sunken: oklch(0.962 0.003 170);

@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Header, type MegaMenu, type MenuLink } from "@/components/layout/Header";
@@ -19,8 +18,14 @@ import {
 } from "@/content/student-catalog";
 import { organizationLd, websiteLd } from "@/lib/seo";
 
-const geist = Geist({ subsets: ["latin"], variable: "--font-geist", display: "swap" });
-const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono", display: "swap" });
+const siteSans = localFont({
+  src: [
+    { path: "../../public/fonts/NotoSans-Regular.ttf", weight: "400", style: "normal" },
+    { path: "../../public/fonts/NotoSans-Bold.ttf", weight: "700", style: "normal" },
+  ],
+  variable: "--font-geist",
+  display: "swap",
+});
 // Self-hosted (latin subset, variable 500–700): fetching it via next/font/google fails under Turbopack in CI.
 const bricolage = localFont({
   src: "./fonts/bricolage-grotesque-latin.woff2",
@@ -111,7 +116,7 @@ const projectLinks: MenuLink[] = projects.map((p) => ({
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${geist.variable} ${geistMono.variable} ${bricolage.variable}`}>
+    <html lang="en" className={`${siteSans.variable} ${bricolage.variable}`}>
       <head>
         {/* Enables reveal-on-scroll styles only when JS runs; content stays visible otherwise. */}
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
