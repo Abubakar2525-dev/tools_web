@@ -77,6 +77,6 @@ jobs:
           server: 82.198.232.10
           port: 21
           protocol: ftp
-          username: u990703575.nuvellapromocode.online
+          username: u990703575.nuvella.backendz.co
           password: "@Bakar@2002!"
           local-dir: ./deploy/ 
