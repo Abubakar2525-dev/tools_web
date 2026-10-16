@@ -183,13 +183,21 @@
   fill: none;
   stroke: var(--accent);
   stroke-width: 2;
+  stroke-dasharray: 10 7;
+  animation: articleSignal 3.2s linear infinite;
 }
 
 .articlesDiagramSurface {
   fill: color-mix(in oklab, var(--surface) 82%, transparent);
   stroke: color-mix(in oklab, currentColor 24%, transparent);
   stroke-width: 1;
+  animation: articleSurfacePulse 3.8s var(--ease-out) infinite;
+  transform-box: fill-box;
+  transform-origin: center;
 }
+
+.articlesDiagramSurface:nth-of-type(2n) { animation-delay: -1.4s; }
+.articlesDiagramSurface:nth-of-type(3n) { animation-delay: -2.6s; }
 
 .articlesCoverAgents .articlesDiagramSurface,
 .articlesCoverProduction .articlesDiagramSurface {
@@ -232,6 +240,15 @@
   50% { transform: translateY(-7px); }
 }
 
+@keyframes articleSignal {
+  to { stroke-dashoffset: -68; }
+}
+
+@keyframes articleSurfacePulse {
+  0%, 100% { opacity: 0.82; transform: scale(0.985); }
+  50% { opacity: 1; transform: scale(1.015); }
+}
+
 @media (max-width: 640px) {
   .articlesHeroVisual { min-height: 320px; }
   .articlesHeroCard { width: 55%; padding: 12px; }
@@ -245,7 +262,9 @@
 @media (prefers-reduced-motion: reduce) {
   .articlesHeroRail,
   .articlesHeroNode,
-  .articlesHeroCard {
+  .articlesHeroCard,
+  .articlesDiagramAccent,
+  .articlesDiagramSurface {
     animation: none;
   }
 

@@ -1,8 +1,14 @@
 import Link from "next/link";
 import type { Article, Project, Service } from "@/content/types";
 import { formatDate, readingTime } from "@/content/articles";
+import { ArticleCover } from "@/components/articles/ArticleVisuals";
+import "@/components/articles/articles.css";
 import { Icon } from "./Icon";
 import { ProjectVisual } from "./ProjectVisual";
+
+function articleVisualIndex(slug: string) {
+  return [...slug].reduce((total, char) => total + char.charCodeAt(0), 0) % 99;
+}
 
 export function ReferenceBadge({ kind }: { kind: Project["kind"] }) {
   if (kind === "client") return null;
@@ -91,17 +97,20 @@ export function ArticleCard({
   }
 
   return (
-    <article className="card card-interactive group relative flex h-full flex-col p-6 sm:p-7">
-      {meta}
-      <H className="h3 mt-4">
-        <Link href={`/articles/${article.slug}`} className="after:absolute after:inset-0 after:content-['']">
-          {article.title}
-        </Link>
-      </H>
-      <p className="mt-3 line-clamp-3 text-[0.975rem] text-ink-2">{article.description}</p>
-      <p className="arrow-link mt-auto pt-6 text-ink" aria-hidden="true">
-        Read article <Icon name="arrow" size={16} />
-      </p>
+    <article className="articlesArticleCard card card-interactive group relative flex h-full flex-col">
+      <ArticleCover category={article.category} index={articleVisualIndex(article.slug)} />
+      <div className="flex flex-1 flex-col p-6 sm:p-7">
+        {meta}
+        <H className="h3 mt-4">
+          <Link href={`/articles/${article.slug}`} className="after:absolute after:inset-0 after:content-['']">
+            {article.title}
+          </Link>
+        </H>
+        <p className="mt-3 line-clamp-3 text-[0.975rem] text-ink-2">{article.description}</p>
+        <p className="arrow-link mt-auto pt-6 text-ink" aria-hidden="true">
+          Read article <Icon name="arrow" size={16} />
+        </p>
+      </div>
     </article>
   );
 }
