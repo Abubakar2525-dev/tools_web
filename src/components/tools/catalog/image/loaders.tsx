@@ -18,7 +18,12 @@ export const components: Record<string, ComponentType> = {
   "photo-effects": dynamic(() => import("./photo-effects"), { loading: () => <ToolLoading /> }),
   "image-noise-reduction": dynamic(() => import("./image-noise-reduction"), { loading: () => <ToolLoading /> }),
   "add-border-and-rounded-corners": dynamic(() => import("./add-border-and-rounded-corners"), { loading: () => <ToolLoading /> }),
-  "image-watermark": dynamic(() => import("./image-watermark"), { loading: () => <ToolLoading /> }),
+  // Canvas/ImageBitmap processing is browser-only. Avoid evaluating this
+  // module while Next.js prerenders the route with webpack.
+  "image-watermark": dynamic(() => import("./image-watermark"), {
+    loading: () => <ToolLoading />,
+    ssr: false,
+  }),
   "screenshot-annotator": dynamic(() => import("./screenshot-annotator"), { loading: () => <ToolLoading /> }),
   "image-to-text-ocr": dynamic(() => import("./image-to-text-ocr"), { loading: () => <ToolLoading /> }),
   "exif-viewer-and-remover": dynamic(() => import("./exif-viewer-and-remover"), { loading: () => <ToolLoading /> }),
