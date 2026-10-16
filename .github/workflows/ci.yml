@@ -18,7 +18,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
 
       - run: npm ci
@@ -27,7 +27,8 @@ jobs:
       - run: npm run test:tools
       - run: npm run build
         env:
-          NEXT_PUBLIC_SITE_URL: https://www.example.com
+          NEXT_PUBLIC_SITE_URL: https://nuvella.backendz.co
+          NEXT_PUBLIC_SITE_ENV: production
 
   api:
     name: API (tests)
@@ -37,7 +38,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 24
 
       - uses: actions/setup-python@v5
         with:
@@ -47,36 +48,3 @@ jobs:
 
       - run: pip install -r backend/requirements.txt
       - run: npm run test:api
-
-  deploy:
-    name: Deploy (FTP)
-    needs: [web, api]
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-
-      - run: npm ci
-      - run: npm run build
-        env:
-          NEXT_PUBLIC_SITE_URL: https://www.example.com
-
-      - name: Stage files to upload
-        run: |
-          mkdir deploy
-          cp -r .next public deploy/
-          cp package.json package-lock.json next.config.ts deploy/
-
-      - uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: 82.198.232.10
-          port: 21
-          protocol: ftp
-          username: u990703575.nuvella.backendz.co
-          password: "@Bakar@2002!"
-          local-dir: ./deploy/ 
